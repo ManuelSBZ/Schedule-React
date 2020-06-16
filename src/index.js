@@ -6,8 +6,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* COMPONENTE PADRE */}
     <App />
   </React.StrictMode>,
+  // SELECCIONANDO EL ELEMENTO EN EL CUAL SE VA A INSERTAR
   document.getElementById('root')
 );
 
