@@ -68,7 +68,7 @@ export default function App(){
 /**/
   const deletetask = (name) =>{
     if (taskItems.find(task => task.name===name)){
-      setsTaskItems(taskItems.filter(task => task.name != name))
+      setsTaskItems(taskItems.filter(task => task.name !== name))
     }
   }
   // permite cambiar el estado del check ,es usado por componente TaskRow en un handler
