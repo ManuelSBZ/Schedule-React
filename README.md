@@ -10,7 +10,7 @@ Tecnologias principales:
 -Para correr el proyecto usando docker ejecutar los siguientes comandos en el simbolo del sistemas:
 
  1. docker build . -t dev/react_schedule:latest
- 2. docker run -p 3000:3000 react_schedule:latest
+ 2. docker run -p 3000:3000 dev/react_schedule:latest
 
  luego en el navegador de preferencia ir al la siguiente url: http://localhost:3000
 
